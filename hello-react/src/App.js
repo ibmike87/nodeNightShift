@@ -1,14 +1,14 @@
-import React from 'react';  //JSX 에서 react 를 불러오려면 'react'를 꼭 import 해야 한다.
+import React, {Component} from 'react';  //JSX 에서 react 를 불러오려면 'react'를 꼭 import 해야 한다.
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class App extends Component  {
   render (){
     const style = {
       backgroundColor : "black",
       padding : '16px',
       color : "white",
-      fontSize : "12px"
+      fontSize : "15px"
     };
 
     return (
